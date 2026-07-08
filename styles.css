@@ -28,17 +28,22 @@ a {
 .nav-links li {
     list-style: none;
     padding: 10px;
+    margin-top: 25px;
+    margin-right: 50px;
 }
 
 .cta-link {
-    border: solid 2px white;
+    border: solid 2px whitesmoke;
     border-radius: 6px;
+    color: black;
 }
 .logo::first-letter {
     font-size: 25px;
 }
 .logo {
     text-shadow: 3px 2px 3px white;
+    margin-top: 25px;
+    margin-left: 50px;
 }
 a:hover {
     background-color: black;
@@ -64,14 +69,19 @@ p {
     height: 60vh;
     align-items: center;
 }
+
+.hero-section div {
+    width: 50%;
+}
 .image {
-    width: 300px;
-    height: 250px;
+    width: 80vh;
+    height: 50%;
     border-radius: 6px;
     border: solid 2px black;
 }
 .featured-cards {
     display: flex;
+    justify-content: space-around;
 }
 
 .card {
@@ -121,4 +131,57 @@ p {
 .connect {
     color: white;
     padding-top: 50px;
+}
+.about {
+    text-align: center;
+}
+.project {
+    text-align: center;
+}
+.web {
+    font-size: 75px;
+}
+.building {
+    font-size: 25px; 
+}
+.mail-img-icon {
+  width: 50px;       /* Adjust size here */
+  height: 50px;      /* Keep it a square */
+  vertical-align: middle; /* Aligns it nicely with text */
+  display: inline-block;
+
+  
+}
+.linkedin-img-icon {
+  width: 38px;
+  height: 38px;
+  vertical-align: middle;
+  display: inline-block;
+  border: solid 4px white;
+  border-radius: 6px;
+}
+.github-img-icon {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.back-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #00ffcc; /* Match your portfolio theme */
+  color: #121212;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none; /* Removes the underline */
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.back-to-top-btn:hover {
+  background-color: #00cc99;
+}
+html {
+  scroll-behavior: smooth;
 }
